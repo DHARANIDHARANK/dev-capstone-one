@@ -5,4 +5,4 @@ cd build
 
 
 
-docker build frontend .
+docker build -t frontend .
