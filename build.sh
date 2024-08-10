@@ -2,4 +2,4 @@
 
 
 
-docker build -t frontend .
+sudo docker build -t frontend .
