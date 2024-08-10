@@ -7,4 +7,4 @@ source .env.docker
 set -o allexport
 
 
-sudo docker build ${IMAGE_NAME} .
+sudo docker build frontend .
