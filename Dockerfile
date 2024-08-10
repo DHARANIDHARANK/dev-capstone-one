@@ -8,5 +8,5 @@ COPY build /usr/share/nginx/html
 
 EXPOSE 80
 
-EXNTYPOINT ['nginx', '-g' , 'daemon off;']
+ENTRYPOINT ['nginx', '-g' , 'daemon off;']
 
