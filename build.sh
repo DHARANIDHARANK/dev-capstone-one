@@ -1,5 +1,10 @@
 #!/bin/bash
 
-IMAGE_NAME= "REACTAPP"
+cd build
 
-docker build ${IMAGE_NAME} .
+set -o allexport
+source .env.docker
+set -o allexport
+
+
+sudo docker build ${IMAGE_NAME} .
